@@ -324,7 +324,7 @@ const getLocationDetails = async () => {
         <div className="relative transform transition-transform group-hover:scale-110">
         {favoriteDogIds.length > 0 ? (
           <img 
-          src='src/assets/paw-click.gif' 
+          src='/src/assets/paw-click.gif' 
           alt="Match button" 
           className="w-16 h-16 object-contain filter "
           onClick={matchDog}
